@@ -1,0 +1,141 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Bai-Jamjuree", sans-serif;
+}
+  
+body {
+    display: flex;
+    min-height: 200vh;
+    background: url('images/backgroundhome.jpg') no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 2rem 7%;
+}
+
+.back-btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 140px;
+    height: 40px;
+    background: rgb(0, 0, 0);
+    border: 2px solid #704300;
+    border-radius: 30px;
+    margin-left: 171%;
+}
+
+.back-btn a{
+    font-size: 13px;
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: 700;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    line-height: 1.8;
+}
+
+
+.contents{
+    max-width: 600px;
+    max-height: 600px;
+    margin-top: 10%;
+    justify-content: left;
+}
+
+.image1 img{
+    display: flex;
+    position: absolute;
+    margin-left: 49%;
+    margin-top: -29%;
+    height: 65%;
+}
+
+.contents h3{
+    font-family: 'Bai Jamjuree', sans-serif;
+    font-size: 38px;
+    background-image: linear-gradient(43deg, #ffffff 0%, #fda013 100%);
+    background-clip: text;
+    color: transparent;
+    font-weight: 700;
+    text-transform: capitalize;
+    padding-bottom: 25px;
+}
+
+.contents p{
+    font-family: 'Bai Jamjuree', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #ffffff;
+    line-height: 1.5;
+    padding: 1rem 0;
+}
+
+
+@media (max-width: 768px){
+    body {
+        display: flex;
+        min-height: 280vh;
+        background: url('images/backgroundhome.jpg') no-repeat;
+        background-position: left;
+        padding: 3rem 10%;
+    }
+
+    .back-btn{
+        margin-left: 80%;
+    }
+
+    .contents{
+        max-width: 680px;
+    }
+
+    .image1 img{
+        margin-left: 0%;
+        margin-top: 5%;
+        height: 75%;
+        width: 80%;
+
+    }
+
+}
+
+@media (max-width: 320px){
+    body {
+        display: flex;
+        min-height: 200vh;
+        background: url('images/backgroundhome.jpg') no-repeat;
+        background-position: left;
+        padding: 3rem 10%;
+    }
+
+    .back-btn{
+        margin-left: 60%;
+        width: 100px;
+        height: 30px;
+    }
+    
+    .back-btn a{
+        font-size: 11px;
+    }
+
+    .contents{
+        max-width: 730px;
+    }
+
+    .contents h3{
+        font-size: 25px;
+    }
+
+    .contents p{
+        font-size: 11px;
+    }
+
+    .image1 img{
+        margin-left: 0%;
+        margin-top: 5%;
+        height: 45%;
+        width: 80%;
+}
+
+}

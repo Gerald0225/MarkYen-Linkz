@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Final Website</title>
+    <link href="https://fonts.googleapis.com/css2?family=Bai+Jamjuree:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&family=Goblin+One&family=Goldman:wght@400;700&family=Notable&display=swap" rel="stylesheet">
+    <!-- custom css file link -->
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+</head>
+<body>
+
+<!-- header section starts -->
+
+<header class="header">
+
+    <a href="#" class="logo">
+        <img src="images/logo.png" alt="">
+    </a>
+    
+    <nav class="navbar">
+        <a href="#home">home</a>
+        <a href="#about">about</a>
+        <a href="#blogs">blogs</a>
+        <a href="#services">services</a>
+        <a href="#contact">contact us</a>
+    </nav>
+
+    <div class="icons">
+        <div class='bx bx-search' id="search-btn"></div>
+        <div class='bx bx-menu' id="menu-btn"></div>
+    </div>
+
+    <div class="search-form">
+        <input type="search" id="search-box" placeholder="Search here...">
+        <label for="search-box" class="bx bx-search"></label>
+    </div>
+</header>
+
+<!-- header section ends -->
+
+<!-- home section starts -->
+
+<section class="home" id="home">
+
+    <div class="content">
+        <h2>markyen linkz</h2>
+        <h3>INTERNET CAFE</h3>
+        <h4>connect | work | play</h4>
+        <p>Play ONLINE GAMES, enjoy, relax, connect and make our place your haven.
+        <br>Here @MarkYen Linkz Internet Cafe, we provide PCs with high-speed internet
+        <br>connection, complete Office Documents for your Work and School tasks.</p>
+        <div class="btn-box">
+          <a href="register.html">Sign-Up</a>
+        </div>
+        <div class="wifi-ico">
+            <a href="#"> <i class='bx bx-wifi' ></i></a>
+        </div>
+
+        <div class="home-ico">
+            <a href="instagram.com" target="_blank"><i class='bx bxl-instagram'></i></a>
+            <a href="facebook.com"><i class='bx bxl-facebook' ></i></a>
+            <a href="twitter.com"><i class='bx bxl-twitter' ></i></a>
+            <a href="whatsapp.com"><i class='bx bxl-whatsapp' ></i></a>
+        </div>
+
+        <div class="mobile-img">
+            <img src="images/image 1 (1).png" alt="">
+        </div>
+        
+    </div>
+
+    <div id="slider">
+        <ul id="sliderWrap">
+            <li><img src="images/image 1.png" alt=""></li>
+            <li><img src="images/image 2.png" alt=""></li>
+            <li><img src="images/image 3.png" alt=""></li>
+            <li><img src="images/image 4.png" alt=""></li>
+            <li><img src="images/image 5.png" alt=""></li>
+            <li><img src="images/image 6.png" alt=""></li>
+            <li><img src="images/image 7.png" alt=""></li>
+            <li><img src="images/image 8.png" alt=""></li>
+            <li><img src="images/image 9.png" alt=""></li>
+        </ul>
+        
+        <a id="prev" href="#"><i class='bx bx-chevrons-left' ></i></a>
+        <a id="next" href="#"><i class='bx bx-chevrons-right' ></i></a>
+
+    </div>
+
+</section>
+
+<!-- home section ends -->
+
+
+<!-- about section starts -->
+
+<section class="about" id="about">
+
+        <div class="image">
+            <img src="images/image 40.png" alt="">
+        </div>
+
+        <div class="content">
+            <h3> ABOUT US</h3>
+            <p> Welcome to Markyen's Computer Cafe, your one-stop shop for everything
+            computer and gaming! We are located at 97 Quezon Avenue in Lucena City and
+            offer not only a premium computer café experience but also a large choice
+            of high-quality computer peripherals and accessories to enhance your gaming
+            or working setup.</p>
+
+            <div class="about-ico">
+                <a href="#"><i class='bx bxs-home'></i></a>
+                <a href="#"><i class='bx bxs-user-check'></i></a>
+                <a href="#"><i class='bx bxs-envelope'></i></a>
+                <a href="#"><i class='bx bxs-contact' ></i></a>
+            </div>
+
+            <div class="learn-btn">
+                <a href="learnmore.html">Learn More ></a>
+        </div>
+
+
+</section>
+
+<!-- about section ends -->
+
+
+<!-- blog section starts -->
+
+<section class="blogs" id="blogs">
+ 
+    <h3> FEATURES </h3>
+
+    <div class="slideshow-container">
+        <div class="mySlides fade">
+            <img src="images/1st Feature.png" style="width: 110%">
+            <div class="text"></div>
+        </div>
+
+        <div class="mySlides fade">
+            <img src="images/2nd Feature (1).png" style="width: 110%">
+            <div class="text"></div>
+        </div>
+
+        <div class="mySlides fade">
+            <img src="images/3rd Feature (1).png" style="width: 110%">
+            <div class="text"></div>
+        </div>
+
+        <div class="mySlides fade">
+            <img src="images/4th Feature (1).png" style="width: 110%">
+            <div class="text"></div>
+        </div>
+
+        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+    </div>
+
+
+    <div class="dots">
+        <span class="dot" onclick="currentSlide(1)"></span>
+        <span class="dot" onclick="currentSlide(2)"></span>
+        <span class="dot" onclick="currentSlide(3)"></span>
+        <span class="dot" onclick="currentSlide(4)"></span>
+    </div>
+
+</section>
+
+<!-- blog section ends -->
+
+
+<!-- service section starts -->
+
+<section class="services" id="services">
+
+    <div class="content">
+        <h3>OUR SERVICES</h3>
+      </div>
+    
+      <!-- Carousel Section -->
+      <div class="services-section">
+        <!-- Description Section (Left) -->
+        <div class="description">
+          <h2 id="serviceTitle">PC RENTALS</h2>
+          <p id="serviceDescription">P15.00/hour
+            You can avail our MEMBERSHIP CARD(VIP or REGULAR)</p>
+        </div>
+    
+        <!-- Carousel Section (Right) -->
+        <div class="carousel-container">
+          <div class="carousel">
+            <div class="carousel-track-container">
+              <div class="carousel-track">
+                <div class="service-card">
+                  <img src="images/pcrental (2).png" alt="Service 1" />
+                </div>
+                <div class="service-card">
+                  <img src="images/printing.png" alt="Service 2" />
+                </div>
+                <div class="service-card">
+                  <img src="images/bayad.png" alt="Service 3" />
+                </div>
+                <div class="service-card">
+                  <img src="images/accessories.png" alt="Service 4" />
+                </div>
+                <div class="service-card">
+                  <img src="images/pc-set.jpg" alt="Service 5" />
+                </div>
+                <div class="service-card">
+                  <img src="images/repair.png" alt="Service 6" />
+                </div>
+                <div class="service-card">
+                  <img src="images/ink.png" alt="Service 7" />
+                </div>
+              </div>
+            </div>
+          </div>
+          <button class="prev-btn">❮</button>
+          <button class="next-btn">❯</button>
+        </div>
+      </div>
+
+</section>
+
+<!-- service section ends -->
+
+
+<!-- contact section starts -->
+
+<section class="contact" id="contact">
+
+  <div class="container">
+    <h1>CONTACT US</h1>
+    <div class="contact-info">
+      <p><b>Address:</b> 97 Quezon Avenue, in front of Greenwich & Gemini Bakery, Lucena City</p>
+      <p><b>Phone:</b> (042)719-10-26, 0910 630 6655</p>
+      <p><b>E-mail:</b> markyen2022@gmail.com</p>
+    </div>
+    <form action="/submit-contact.php" method="post">
+      <div class="contact-form">
+        <div>
+          <input type="text" name="name" placeholder="Name">
+          <input type="email" name="email" placeholder="Email address">
+          <input type="tel" name="phone" placeholder="Cellphone No.">
+        </div>
+        <div>
+          <textarea name="message" placeholder="Message"></textarea>
+        </div>
+        <div class="submit-group">
+          <button><a href="index.html">Submit</a></button>
+        </div>
+      </div>
+    </form>
+  
+    <div class="footer">
+      <p>&copy; 2024 Copyright | Markyen Internet Cafe | All Rights Reserved</p>
+    </div>
+  </div>
+
+</section>
+
+<!-- contact section ends -->
+
+
+
+
+
+
+
+<!-- custom js file link -->
+<script src="script.js"></script>
+
+</body>
+</html>
